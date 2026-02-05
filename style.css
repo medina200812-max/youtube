@@ -1,0 +1,129 @@
+body {
+    
+  margin: 0;
+  padding: 0;
+      font-family:Arial, Helvetica, sans-serif
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+.top img {
+  width: 30px;
+  height: 30px;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.search input {
+  background-color: white;
+  padding: 13px 380px 14px 10px;
+  border: 1px solid gray;
+  border-radius: 50px 0 0 50px;
+  font-size: 16px;
+  color: gray;
+  outline: none;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.profile button {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  gap: 5px;
+  padding: 0 10px;
+}
+.container {
+  display: flex;
+     margin: 0;
+    padding: 0;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 20px;
+  padding: 20px 10px;
+}
+.left p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+.left img {
+  width: 33px;
+  height: 35px;
+
+}
+.mini {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.buttons p{
+    background-color: rgb(241, 241, 241);
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.buttons p:hover{
+    background-color: black;
+    color: white;
+}
+.videos{
+   display: flex;
+   flex-direction: column;
+    gap: 50px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+    gap: 15px;
+}
+.box img{
+    width: 450px;
+    
+}
+.text img{
+    width: 10px;
+    height: 20px;
+}
+.birinshi{
+    gap: 15px;
+    display: flex;
+}
+.text{
+ 
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  
+}
+.tochka p{
+    margin: 0;
+    color: gray;
+    font-size: 15px;
+    padding: 0;
+}
